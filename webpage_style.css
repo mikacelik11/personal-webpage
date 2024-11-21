@@ -1,0 +1,50 @@
+.container {
+    list-style: none;
+    padding: 0;
+    background: #0e1212;
+
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+    
+}
+
+body {
+    background: #0e1212;
+}
+
+h1, a {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-style: normal; 
+
+
+    /*
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    */
+}
+
+.fade-in-section {
+    opacity: 0.1;
+    transition: opacity 1.5s ease-out;
+    transform: translateY(20px);
+    width: 40%; 
+    font-size: 20px;
+    margin-left: -5px;
+    color: aliceblue;
+}
+
+.is-visible {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Use this if you also want vertical centering */
+    height: 65vh;
+}
